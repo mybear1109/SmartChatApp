@@ -74,11 +74,9 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.ChatViewHolder
         if (message.getSenderId().equals(senderId)) {
             // 내 메시지 - 오른쪽 정렬
             holder.messageTextView.setGravity(Gravity.END);
-            holder.timestampTextView.setGravity(Gravity.START); // 내 메시지 시간은 왼쪽
         } else {
             // 상대방 메시지 - 왼쪽 정렬
             holder.messageTextView.setGravity(Gravity.START);
-            holder.timestampTextView.setGravity(Gravity.END); // 상대방 메시지 시간은 오른쪽
         }
     }
 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "618463792559",
+    "project_id": "smartchatapp-beb80",
+    "storage_bucket": "smartchatapp-beb80.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618463792559:android:6a3f972e47e33e6373735a",
+        "android_client_info": {
+          "package_name": "com.mybea1109.SmartChatApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv-qi0P0b6JhPFBQboP0TSBAihYza7ZFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
